@@ -4,7 +4,7 @@ import React from 'react';
 import { GlowingCards } from '@/components/lightswind/glowing-cards';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/lightswind/card';
 import { ScrollReveal } from '@/components/lightswind/scroll-reveal';
-import { TrendingUp, Users, BarChart3, Bell } from 'lucide-react';
+import { TrendingUp, Users, BarChart3 } from 'lucide-react';
 
 const WhyVitrinaSection = () => {
   const benefits = [
