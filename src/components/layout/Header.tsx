@@ -1,9 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Button } from '@/components/lightswind/button';
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from '@/components/lightswind/navigation-menu';
-import { HamburgerMenuOverlay } from '@/components/lightswind/HamburgerMenuOverlay';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,66 +39,42 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger onClick={() => scrollToSection('hero')}>
-                    Главная
-                  </NavigationMenuTrigger>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger onClick={() => scrollToSection('services')}>
-                    Услуги
-                  </NavigationMenuTrigger>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger onClick={() => scrollToSection('cases')}>
-                    Кейсы
-                  </NavigationMenuTrigger>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger onClick={() => scrollToSection('about')}>
-                    О нас
-                  </NavigationMenuTrigger>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger onClick={() => scrollToSection('faq')}>
-                    FAQ
-                  </NavigationMenuTrigger>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
+            <div className="flex items-center space-x-8">
+              <a href="#hero" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                Главная
+              </a>
+              <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                Услуги
+              </a>
+              <a href="#cases" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                Кейсы
+              </a>
+              <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                О нас
+              </a>
+              <a href="#faq" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                FAQ
+              </a>
+            </div>
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button 
+            <button 
               onClick={() => scrollToSection('hero')}
-              className="bg-gradient-to-r from-blue-600 to-orange-500 hover:from-blue-700 hover:to-orange-600 text-white"
+              className="bg-gradient-to-r from-blue-600 to-orange-500 hover:from-blue-700 hover:to-orange-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300"
             >
               Получить аудит
-            </Button>
+            </button>
           </div>
 
           {/* Mobile Menu */}
           <div className="md:hidden">
-            <HamburgerMenuOverlay
-              items={[
-                { label: 'Главная', onClick: () => scrollToSection('hero') },
-                { label: 'Услуги', onClick: () => scrollToSection('services') },
-                { label: 'Кейсы', onClick: () => scrollToSection('cases') },
-                { label: 'О нас', onClick: () => scrollToSection('about') },
-                { label: 'FAQ', onClick: () => scrollToSection('faq') },
-              ]}
-              buttonSize="sm"
-              buttonColor="#3b82f6"
-              overlayBackground="linear-gradient(135deg, #3b82f6, #ff6d1b)"
-              textColor="#ffffff"
-              fontSize="lg"
-              fontFamily="Inter, sans-serif"
-              fontWeight="medium"
-              menuAlignment="center"
-            />
+            <button className="text-gray-700 hover:text-blue-600">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
