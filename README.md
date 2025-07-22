@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# iHelper - Лендинг для бренд-витрин Яндекс.Маркета
 
-## Getting Started
+Современный лендинг для сервиса создания бренд-витрин на Яндекс.Маркете с дизайном 10/10.
 
-First, run the development server:
+## 🚀 Технологии
+
+- **Next.js 14** - React фреймворк
+- **TypeScript** - Типизированный JavaScript
+- **Tailwind CSS** - Utility-first CSS фреймворк
+- **Lightswind UI Library** - Компонентная библиотека с анимациями
+- **Framer Motion** - Анимации
+- **React Hook Form** - Управление формами
+- **Zod** - Валидация данных
+- **Lucide React** - Иконки
+
+## 🎨 Дизайн
+
+- Современный минималистичный дизайн
+- Градиентные акценты (синий → оранжевый)
+- Адаптивная верстка для всех устройств
+- Плавные анимации и переходы
+- Интерактивные элементы
+
+## 📱 Секции сайта
+
+1. **Hero** - Главный экран с формой заявки
+2. **Why Vitrina** - Преимущества бренд-витрин
+3. **Services** - Пакеты услуг и цены
+4. **Cases** - Реальные кейсы клиентов
+5. **About** - О компании и команде
+6. **FAQ** - Часто задаваемые вопросы
+7. **Footer** - Контакты и ссылки
+
+## 🛠 Установка и запуск
 
 ```bash
+# Клонирование репозитория
+git clone https://github.com/gross1928/vitrynamarket.git
+cd vitrynamarket
+
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Сборка для продакшена
+npm run build
+
+# Запуск продакшен версии
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Структура проекта
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/
+│   ├── globals.css          # Глобальные стили
+│   ├── layout.tsx           # Корневой layout
+│   └── page.tsx             # Главная страница
+├── components/
+│   ├── lightswind/          # Компоненты Lightswind UI
+│   ├── layout/              # Компоненты layout
+│   │   ├── Header.tsx       # Шапка сайта
+│   │   └── Footer.tsx       # Подвал сайта
+│   └── sections/            # Секции лендинга
+│       ├── HeroSection.tsx      # Главный экран
+│       ├── WhyVitrinaSection.tsx # Преимущества
+│       ├── ServicesSection.tsx   # Услуги
+│       ├── CasesSection.tsx      # Кейсы
+│       ├── AboutSection.tsx      # О нас
+│       └── FAQSection.tsx        # FAQ
+└── lib/
+    └── utils.ts             # Утилиты
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Особенности
 
-## Learn More
+### Анимации
+- ScrollReveal для появления элементов при скролле
+- AuroraBackground для динамического фона
+- Плавные переходы между секциями
+- Интерактивные hover-эффекты
 
-To learn more about Next.js, take a look at the following resources:
+### Формы
+- Валидация с помощью Zod
+- React Hook Form для управления состоянием
+- Адаптивный дизайн форм
+- Обработка отправки данных
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Производительность
+- Оптимизированные изображения
+- Ленивая загрузка компонентов
+- Минификация CSS и JS
+- SEO-оптимизация
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Цветовая схема
 
-## Deploy on Vercel
+- **Primary**: #3b82f6 (синий)
+- **Accent**: #ff6d1b (оранжевый)
+- **Background**: #ffffff (белый)
+- **Text**: #1f2937 (темно-серый)
+- **Gray**: #6b7280 (серый)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 Адаптивность
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Сайт полностью адаптивен и оптимизирован для:
+- Мобильных устройств (320px+)
+- Планшетов (768px+)
+- Десктопов (1024px+)
+- Больших экранов (1440px+)
+
+## 🚀 Деплой
+
+Проект готов к деплою на:
+- Vercel
+- Netlify
+- GitHub Pages
+- Любой другой хостинг
+
+## 📄 Лицензия
+
+MIT License
+
+## 👥 Команда
+
+- **iHelper** - Сертифицированный партнёр Яндекс.Маркета
+- **5 лет опыта** в создании бренд-витрин
+- **20+ специалистов** в команде
+- **500+ довольных клиентов**
+
+## 📞 Контакты
+
+- **Email**: info@ihelper-team.com
+- **Сайт**: ihelper-seller.com
+- **Telegram**: @ihelper_support
+
+---
+
+Создано с ❤️ командой iHelper
