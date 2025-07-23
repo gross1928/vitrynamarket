@@ -75,7 +75,7 @@ const directionConfig = {
   },
 };
 
-export function ShinyText({
+function ShinyText({
   children,
   disabled = false,
   speed = 3,

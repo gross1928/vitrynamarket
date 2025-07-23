@@ -59,7 +59,7 @@ const variantClasses = {
   primary: "text-primary",
 };
 
-export function ScrollReveal({
+function ScrollReveal({
   children,
   containerClassName,
   textClassName,

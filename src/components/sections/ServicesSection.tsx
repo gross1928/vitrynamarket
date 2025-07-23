@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/lightswin
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/lightswind/card';
 import { Button } from '@/components/lightswind/button';
 import { Badge } from '@/components/lightswind/badge';
-import { ScrollReveal } from '@/components/lightswind/scroll-reveal';
+import ScrollReveal from '@/components/lightswind/scroll-reveal';
 import { Check, Star } from 'lucide-react';
 
 const ServicesSection = () => {

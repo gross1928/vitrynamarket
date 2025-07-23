@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/lightswind/accordion';
-import { ScrollReveal } from '@/components/lightswind/scroll-reveal';
+import ScrollReveal from '@/components/lightswind/scroll-reveal';
 import { Card, CardContent } from '@/components/lightswind/card';
 import { Button } from '@/components/lightswind/button';
 import { HelpCircle, MessageCircle, Mail } from 'lucide-react';

@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import { AuroraBackground } from '@/components/lightswind/aurora-background';
-import { GradientButton } from '@/components/lightswind/gradient-button';
-import { ShinyText } from '@/components/lightswind/shiny-text';
-import { ScrollReveal } from '@/components/lightswind/scroll-reveal';
+import GradientButton from '@/components/lightswind/gradient-button';
+import ShinyText from '@/components/lightswind/shiny-text';
+import ScrollReveal from '@/components/lightswind/scroll-reveal';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/lightswind/card';
 import { Input } from '@/components/lightswind/input';
 import { Button } from '@/components/lightswind/button';

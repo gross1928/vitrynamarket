@@ -5,8 +5,8 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/lightswind/card';
 import { Button } from '@/components/lightswind/button';
 import { Badge } from '@/components/lightswind/badge';
-import { ScrollReveal } from '@/components/lightswind/scroll-reveal';
-import { CountUp } from '@/components/lightswind/count-up';
+import ScrollReveal from '@/components/lightswind/scroll-reveal';
+import CountUp from '@/components/lightswind/count-up';
 import { TrendingUp, Users, DollarSign, ArrowRight } from 'lucide-react';
 
 const CasesSection = () => {

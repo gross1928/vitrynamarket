@@ -3,7 +3,7 @@
 import React from 'react';
 import { Button } from '@/components/lightswind/button';
 import { Card, CardContent } from '@/components/lightswind/card';
-import { ScrollReveal } from '@/components/lightswind/scroll-reveal';
+import ScrollReveal from '@/components/lightswind/scroll-reveal';
 import { Mail, Phone, Globe, MessageCircle } from 'lucide-react';
 
 const Footer = () => {

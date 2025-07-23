@@ -13,7 +13,7 @@ export interface GradientButtonProps
   variant?: "default" | "outline" | "ghost";
 }
 
-export function GradientButton({
+function GradientButton({
   children,
   size = "md",
   className = "",

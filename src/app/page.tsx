@@ -8,16 +8,17 @@ import AboutSection from '@/components/sections/AboutSection';
 import FAQSection from '@/components/sections/FAQSection';
 
 export default function Home() {
+  console.log("[TEST] Home page render");
   return (
     <main className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <WhyVitrinaSection />
-      <ServicesSection />
-      <CasesSection />
-      <AboutSection />
-      <FAQSection />
-      <Footer />
+      {(() => { console.log("[TEST] Header render"); return <Header /> })()}
+      {(() => { console.log("[TEST] HeroSection render"); return <HeroSection /> })()}
+      {(() => { console.log("[TEST] WhyVitrinaSection render"); return <WhyVitrinaSection /> })()}
+      {(() => { console.log("[TEST] ServicesSection render"); return <ServicesSection /> })()}
+      {(() => { console.log("[TEST] CasesSection render"); return <CasesSection /> })()}
+      {(() => { console.log("[TEST] AboutSection render"); return <AboutSection /> })()}
+      {(() => { console.log("[TEST] FAQSection render"); return <FAQSection /> })()}
+      {(() => { console.log("[TEST] Footer render"); return <Footer /> })()}
     </main>
   );
 }

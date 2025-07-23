@@ -50,7 +50,7 @@ const colorSchemes = {
   custom: "", // use customColor
 };
 
-export function CountUp({
+function CountUp({
   value,
   duration = 2,
   decimals = 0,
@@ -175,3 +175,5 @@ export function CountUp({
     </div>
   );
 }
+
+export default CountUp;
