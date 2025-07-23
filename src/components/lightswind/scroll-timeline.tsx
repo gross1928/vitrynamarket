@@ -6,7 +6,7 @@ import {
   useSpring,
   MotionValue,
 } from "framer-motion";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { Card, CardContent } from "../ui/card";
 import { Calendar } from "lucide-react";
 

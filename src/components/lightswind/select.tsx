@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { Check, ChevronDown, ChevronUp } from "lucide-react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion"; // Import motion and AnimatePresence

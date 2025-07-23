@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Calendar as Cal
 import { DayPicker, DropdownProps } from "react-day-picker"; // Import StyledElement
 import { addYears, format, subYears } from "date-fns";
 
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";

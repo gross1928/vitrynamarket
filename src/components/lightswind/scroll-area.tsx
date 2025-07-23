@@ -1,6 +1,6 @@
 
 import * as React from "react";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 
 interface ScrollAreaProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Reference to the viewport element */

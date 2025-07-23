@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { Sparkles, Loader2 } from "lucide-react";
 import { cva, type VariantProps } from "class-variance-authority";
 

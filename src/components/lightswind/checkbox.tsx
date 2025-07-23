@@ -1,6 +1,6 @@
 
 import * as React from "react";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { Check } from "lucide-react";
 
 export interface CheckboxProps extends React.InputHTMLAttributes<HTMLInputElement> {

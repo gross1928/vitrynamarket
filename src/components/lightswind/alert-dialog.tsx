@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
 import { motion, AnimatePresence } from "framer-motion"; // Import motion and AnimatePresence
 

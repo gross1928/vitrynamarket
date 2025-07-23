@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { Input, InputProps  } from "../ui/input";
 import { Label } from "../ui/label";
 import { Eye, EyeOff, Check, X } from "lucide-react";
